@@ -1,0 +1,39 @@
+header {
+    position: absolute;
+    display: flex;
+    background-color: #333;
+    color: white;
+    min-width: 100%;
+    height: 100px;
+    align-items: center;
+}
+
+.project-name {
+    font-size: 2em;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    line-height: 100px;
+}
+
+.nav-bar {
+    position: absolute;
+    display: flex;
+    width: 350px;
+    right: 10px;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
